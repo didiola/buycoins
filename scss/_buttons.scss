@@ -1,9 +1,6 @@
-// %btn{
-//     padding: 8px 15px;
-//     border-radius: 5px;
-// }
-
-.btn-cta{
-    // @extend %btn;
-    @include set-background($secondary-color);
+.action{
+    .btn-cta{
+        padding: 8px 15px;
+        background-color: brown;
+    }
 }
